@@ -191,7 +191,7 @@ lcd.setCursor(0,1);//以下为计时 显示以及蜂鸣器提醒
 根据盒子大小估算得出13min左右可做到消毒，因此设定消毒时长为15min。
 
 ### 电路图
-![image](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E5%9F%BA%E6%9C%AC%E6%B6%88%E6%AF%92%E5%8A%9F%E8%83%BD%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%94%B5%E8%B7%AF%E5%9B%BE/%E7%94%B5%E8%B7%AF.png)
+![image](blob/master/website/circuit.png)
 
 ### 三维渲染图
 ![总装 v3(1).png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85.png)
