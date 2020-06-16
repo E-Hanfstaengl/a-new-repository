@@ -194,7 +194,7 @@ lcd.setCursor(0,1);//以下为计时 显示以及蜂鸣器提醒
 ![image](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E5%9F%BA%E6%9C%AC%E6%B6%88%E6%AF%92%E5%8A%9F%E8%83%BD%E7%A8%8B%E5%BA%8F%E4%B8%8E%E7%94%B5%E8%B7%AF%E5%9B%BE/%E7%94%B5%E8%B7%AF.png)
 
 ### 三维渲染图
-
+![总装 v3(1).png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85.png)
 ![总装 v5(底+电子元件）.png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85%20v5(%E5%BA%95%2B%E7%94%B5%E5%AD%90%E5%85%83%E4%BB%B6%EF%BC%89.png)
 ![总装 v5（中层）.png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85%20v5%EF%BC%88%E4%B8%AD%E5%B1%82%EF%BC%89.png)
 ![总装 v5（盖：俯视）.png	](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85%20v5%EF%BC%88%E7%9B%96%EF%BC%9A%E4%BF%AF%E8%A7%86%EF%BC%89.png)
