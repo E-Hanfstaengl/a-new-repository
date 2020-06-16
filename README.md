@@ -16,18 +16,8 @@
 ### 设计概念：
 疫情期间，规范佩戴口罩是保护身体健康的必要手段，但口罩佩戴时间长短难以把控、消毒方式难以达标使得口罩的防护效果受到一定程度的影响。本小组设计的计时消毒口罩盒旨在提供储存、记录佩戴时间并达到在口罩的有效防护期6小时通过手机app提醒佩戴者更换口罩、对口罩进行紫外线消毒等功能，使口罩的更换和再次利用更加便利。
 ### 材料清单：
-|名称|数量|备注|
-|:---|:---|:---|
-|紫外LED灯|4|用于消毒|
-|红色LED灯|1|提示口罩使用时限已到|
-|黄色LED灯|1|提示准备消毒或消毒进行中|
-|绿色LED灯|1|提示消毒完成或口罩还能继续使用|
-|蜂鸣器|1|提示消毒完成以及口罩使用时限已到|
-|LCD显示板|1|显示时间|
-|Arduino板|1|装载程序|
-|电池|2|
-|电线|若干|
-|纸板|若干|搭建消毒盒主体|
+![image](website/screenshot.PNG)
+
 ### 程序代码（含消毒部分）
 ```
 int purplePin = 2 ;
@@ -178,9 +168,9 @@ lcd.setCursor(0,1);//以下为计时 显示以及蜂鸣器提醒
 ```
 [TIMER](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/TIMER.brd)
 >**简易实物演示**
->![image](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/%E5%AE%9E%E7%89%A9%26%E4%BB%BF%E7%9C%9F/TIMER-1.PNG)
->![image](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/%E5%AE%9E%E7%89%A9%26%E4%BB%BF%E7%9C%9F/TIMER-2.PNG)
->[uvled.mp4](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/%E5%AE%9E%E7%89%A9%26%E4%BB%BF%E7%9C%9F/uvled.mp4)
+>![image](website/TIMER-1.PNG)
+>![image](website/TIMER-2.PNG)
+>[视频链接](website/uvled.mp4)
 
 ***
 消毒盒子的紫外线消毒和口罩佩戴提醒功能，(暂时通过盒子本身蜂鸣器提醒用户)经查询可知
@@ -194,7 +184,7 @@ lcd.setCursor(0,1);//以下为计时 显示以及蜂鸣器提醒
 ![image](website/circuit.png)
 
 ### 三维渲染图
-![总装 v3(1).png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85.png)
+![总装 v3(1).png](website/v3(1).png)
 ![总装 v5(底+电子元件）.png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85%20v5(%E5%BA%95%2B%E7%94%B5%E5%AD%90%E5%85%83%E4%BB%B6%EF%BC%89.png)
 ![总装 v5（中层）.png](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85%20v5%EF%BC%88%E4%B8%AD%E5%B1%82%EF%BC%89.png)
 ![总装 v5（盖：俯视）.png	](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%B8%89%E7%BB%B4%E6%B8%B2%E6%9F%93%E5%9B%BE/%E6%80%BB%E8%A3%85%20v5%EF%BC%88%E7%9B%96%EF%BC%9A%E4%BF%AF%E8%A7%86%EF%BC%89.png)
