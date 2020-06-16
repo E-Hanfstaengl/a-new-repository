@@ -106,7 +106,7 @@ if (kg == 0){
 
 }  
 ```
-###程序代码（含显示时间部分）
+### 程序代码（含显示时间部分）
 ```
 #include<LiquidCrystal.h>
 #define buzzer 4
@@ -175,13 +175,14 @@ lcd.setCursor(0,1);//以下为计时 显示以及蜂鸣器提醒
        digitalWrite(UVLED,LOW);}
        delay(600);
         }}
-        ```
+```
 [TIMER](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/TIMER.brd)
 >**简易实物演示**
 >![image](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/%E5%AE%9E%E7%89%A9%26%E4%BB%BF%E7%9C%9F/TIMER-1.PNG)
 >![image](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/%E5%AE%9E%E7%89%A9%26%E4%BB%BF%E7%9C%9F/TIMER-2.PNG)
 >[uvled.mp4](https://github.com/E-Hanfstaengl/a-new-repository/blob/master/%E4%BB%A3%E7%A0%81%E8%AE%A1%E6%97%B6%E5%92%8C%E6%B6%88%E6%AF%92%26%E7%AE%80%E6%98%93%E5%AE%9E%E7%89%A9%E6%BC%94%E7%A4%BA/%E5%AE%9E%E7%89%A9%26%E4%BB%BF%E7%9C%9F/uvled.mp4)
 
+***
 消毒盒子的紫外线消毒和口罩佩戴提醒功能，(暂时通过盒子本身蜂鸣器提醒用户)经查询可知
 1. 对眼睛皮肤有害，解决方法：把待消毒物品放入盒子，关闭盒子后按开关，紫外灯亮起，开始消毒。
 消毒过程中不能打开盒子，消毒完毕紫外灯关闭，待盒子上绿色提示灯亮起，用户将已消毒物品取出。
