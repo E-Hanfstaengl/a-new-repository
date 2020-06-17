@@ -3,15 +3,15 @@
 ### 团队介绍与分工：
 **create小组，成员：** 常温新，姜生新，李响，唐志豪，张凯
 
-**电路设计：** 张凯
+**电路设计：** 张凯 [*ZK-xyzs*](https://github.com/ZK-xyzs)
 
-**3d建模：** 唐志豪
+**3d建模：** 唐志豪 [*zhihao-tang*](https://github.com/zhihao-tang)
 
-**编程：** 李响
+**编程：** 李响 [*Alexander-lx*](https://github.com/Alexander-lx)
 
-**app界面：** 常温新 [E-Hanfstaengl](E-Hanfstaengl/a-new-repository)
+**app界面：** 常温新 [*E-Hanfstaengl*](https://github.com/E-Hanfstaengl)
 
-**实物组装：** 姜生新
+**实物组装：** 姜生新 [*Jsx184477515*](https://github.com/Jsx184477515)
 
 ### 设计概念：
 疫情期间，规范佩戴口罩是保护身体健康的必要手段，但口罩佩戴时间长短难以把控、消毒方式难以达标使得口罩的防护效果受到一定程度的影响。本小组设计的计时消毒口罩盒旨在提供储存、记录佩戴时间并达到在口罩的有效防护期6小时通过手机app提醒佩戴者更换口罩、对口罩进行紫外线消毒等功能，使口罩的更换和再次利用更加便利。
